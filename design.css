@@ -1,0 +1,142 @@
+.log {
+    
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000; /* Light gray background */
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto;
+    margin-top: 150px;
+    box-shadow: 0px 0px 10px #444;
+   
+    
+}
+ body{
+    background-image: url('./maths.jpg');
+    background-size: cover;
+    background-color:#0c0675;
+}
+
+.log h2 {
+    color: #ffffff; /* Dark text color */
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.log form {
+    display: flex;
+    flex-direction: column;
+}
+
+.log label {
+    margin-bottom: 8px;
+    color:#ffffff; /* Dodger blue */
+}
+
+.log input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+}
+
+.log button {
+    padding: 10px 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #0c6429; 
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log button:hover {
+    background-color: #000000; 
+}
+.log input[type="email"], input[type="password"] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+.navbar-container {
+    background-color: black; /* Dark background color */
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+     font-family: 'Fjalla One', sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #043f2b; /* Dodger blue on hover */
+}
+
+
+.home {
+    color: #146525;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url('./maths.jpg');
+    background-size: cover;
+}
+
+.home h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.home form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home label {
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.home input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 2px solid #0d0d0d; /* Light gray border */
+    border-radius: 35px;
+}
+
+.home input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #000000; /* Green */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pass
+{
+    width: 12%;
+}
